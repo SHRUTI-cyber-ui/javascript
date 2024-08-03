@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="data"></p>
+    <p id="otp"></p>
+    <button onclick="random_number()">click</button>
+    <button onclick="number()">click</button>
+
+
+    <script>
+        function random_number(){
+            var nm1=parseInt(Math.random()*6)+1;
+            document.getElementById("data").innerHTML=nm1;
+        }
+
+          function number(){
+            var nm1=parseInt(Math.random(973892));
+            document.getElementById("otp").innerHTML=nm1;
+        
+
+          }
+
+        
+    </script>
+
+    
+</body>
+</html>
